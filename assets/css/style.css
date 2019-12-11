@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900');
+html{
+    background-color: #533C34; 
+
+}
+
+.carousel-item {
+    height: 80vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .carousel-caption{
+      color: white;
+  }
+  .bg-carasel{
+    background: rgba(83, 60, 52, 0.5);
+    border-radius: 10px;
+  }
+  .nav-link{
+      font-size: large;
+      margin-left: 15px;
+  }
+  .navbar-brand{
+      font-size: 20px;
+  }
+  .fix-im {
+      position: relative;
+      bottom:11rem;
+  }
+  @media screen and (max-width:768px){
+  .flex-100 {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+  .fix-im {bottom: 0rem;}
+  .navbar-nav{
+    background: #533C34;
+    padding: 6px;
+  }
+  #gallo{
+      visibility: hidden;
+  }
+  }
+
+#gallo{
+    margin-bottom: -25px;
+    float: right;
+}
+#footer-tierra{
+    width: 100%;
+    margin-bottom: -20px;
+}
+
+
+/*Menu starts*/
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #333;
+    line-height: 1.6;
+}
+.pt-100{
+    padding-top:100px;
+}
+.pb-100{
+    padding-top:100px;
+}
+.mb-60 {
+	margin-bottom: 60px;
+}
+.section-title p {
+	font-size: 24px;
+	font-family: Oleo Script;
+	margin-bottom: 0px;
+	margin-top:50px;
+}
+.section-title h4 {
+	font-size: 40px;
+	text-transform: capitalize;
+	color: rgba(223, 151, 58, 0.5);
+	position: relative;
+	display: inline-block;
+	padding-bottom: 25px;
+}
+.section-title h4::before {
+	width: 80px;
+	height: 1.5px;
+	bottom: 0;
+	left: 50%;
+	margin-left: -40px;
+}
+.section-title h4::before, .section-title h4::after {
+	position: absolute;
+	content: "";
+	background-color: #533C34;
+}
+.single_menu_list img {
+	max-width: 30%;
+	position: absolute;
+	left: 0px;
+	top: 0;
+	border: 1px solid #ddd;
+	padding: 3px;
+	border-radius: 50%;
+	transition: .4s;
+}
+.menu_style1 .single_menu_list img {
+	position: static;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 45px;
+}
+.single_menu_list h4 {
+	font-size: 20px;
+	border-bottom: 1px dashed #333;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+}
+.single_menu_list h4 span {
+	float: right;
+	font-weight: bold;
+	color: rgba(207, 140, 52, 0.5);
+	font-style: italic;
+}
+p {
+	font-weight: 300;
+	font-size: 14px;
+}
+.menu_style1 .single_menu_list {
+	text-align: center;
+}
+.single_menu_list:hover img {
+	border-radius: 0;
+	transition: .4s;
+}
+
+/* end of food menu*/
