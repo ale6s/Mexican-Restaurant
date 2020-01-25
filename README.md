@@ -1,8 +1,8 @@
 # MexicanFood
-Mexican Restaurant fully responsive
--index
--About
--menu
+Mexican Restaurant fully responsive<br>
+-index<br>
+-About<br>
+-menu<br>
 -store hrs
 
 
